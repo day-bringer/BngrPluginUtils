@@ -1,4 +1,4 @@
-﻿package io.daybringer;
+package io.daybringer;
 
 import org.bukkit.command.PluginCommand;
 import org.bukkit.event.Listener;

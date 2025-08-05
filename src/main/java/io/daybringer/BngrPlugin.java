@@ -1,4 +1,4 @@
-﻿package io.daybringer;
+package io.daybringer;
 
 import io.daybringer.annotations.MustCallSuper;
 import io.daybringer.text.TextUtils;

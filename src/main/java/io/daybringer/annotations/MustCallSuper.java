@@ -1,4 +1,4 @@
-﻿package io.daybringer.annotations;
+package io.daybringer.annotations;
 
 import java.lang.annotation.*;
 

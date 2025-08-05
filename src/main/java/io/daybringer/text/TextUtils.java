@@ -1,4 +1,4 @@
-﻿package io.daybringer.text;
+package io.daybringer.text;
 
 import net.md_5.bungee.api.ChatColor;
 

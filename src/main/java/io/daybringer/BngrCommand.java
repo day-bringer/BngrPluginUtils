@@ -1,4 +1,4 @@
-﻿package io.daybringer;
+package io.daybringer;
 
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.TabCompleter;
