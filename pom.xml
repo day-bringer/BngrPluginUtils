@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
     <name>BngrPluginUtils</name>
     <description>A plugin framework for Bukkit-based Minecraft servers.</description>
-    <url>https://github.com/yourname/bngr-core</url>
+    <url>https://github.com/day-bringer/BngrPluginUtils</url>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
@@ -32,9 +32,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/yourname/bngr-core</url>
-        <connection>scm:git:git://github.com/yourname/bngr-core.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com:yourname/bngr-core.git</developerConnection>
+        <url>https://github.com/day-bringer/BngrPluginUtils</url>
+        <connection>scm:git:git://github.com/day-bringer/BngrPluginUtils.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com:day-bringer/BngrPluginUtils.git</developerConnection>
     </scm>
 
     <repositories>
