@@ -1,23 +1,22 @@
-package io.daybringer.text;
+package io.github.daybringer.text;
 
 import net.md_5.bungee.api.ChatColor;
 
 /**
  * Utility class for handling color formatting and plugin message prefixes in a Bukkit/Spigot plugin.
  * <p>
- * This class provides static methods for applying color codes to text using the '&' symbol,
+ * This class provides static methods for applying color codes to text using the '&amp;' symbol,
  * and for managing a configurable plugin message prefix.
  */
 public final class TextUtils
 {
-    /** The prefix applied to messages sent by the plugin. */
     private static String PLUGIN_PREFIX = "";
     /**
-     * Translates alternate color codes in the given string using '&' as the prefix character.
+     * Translates alternate color codes in the given string using '&amp;' as the prefix character.
      * <p>
-     * For example, {@code "&cHello"} becomes red-colored text.
+     * For example, {@code "&amp;cHello"} becomes red-colored text.
      *
-     * @param text The text containing '&' color codes.
+     * @param text The text containing '&amp;' color codes.
      * @return The colored string with Bukkit ChatColor formatting applied.
      *
      * @see org.bukkit.ChatColor
@@ -27,7 +26,7 @@ public final class TextUtils
         return ChatColor.translateAlternateColorCodes('&', text);
     }
     /**
-     * Applies the current plugin prefix and translates any '&' color codes in the resulting message.
+     * Applies the current plugin prefix and translates any '&amp;' color codes in the resulting message.
      *
      * @param text The message to format, excluding the prefix.
      * @return The formatted message with the plugin prefix and color codes applied.
@@ -39,7 +38,7 @@ public final class TextUtils
     /**
      * Sets the plugin-wide prefix used in {@link #toColorPrefix(String)}.
      * <p>
-     * You can include '&' color codes in the prefix string.
+     * You can include '&amp;' color codes in the prefix string.
      *
      * @param prefix The prefix string to set, including any color codes.
      */
@@ -50,7 +49,7 @@ public final class TextUtils
     /**
      * Returns the current plugin message prefix.
      *
-     * @return The raw prefix string (may contain '&' color codes).
+     * @return The raw prefix string (may contain '&amp;' color codes).
      */
     public static String getPluginPrefix()
     {

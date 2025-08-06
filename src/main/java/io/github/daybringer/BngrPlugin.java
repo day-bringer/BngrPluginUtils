@@ -1,7 +1,7 @@
-package io.daybringer;
+package io.github.daybringer;
 
-import io.daybringer.annotations.MustCallSuper;
-import io.daybringer.text.TextUtils;
+import io.github.daybringer.annotations.MustCallSuper;
+import io.github.daybringer.text.TextUtils;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -55,7 +55,7 @@ public abstract class BngrPlugin extends JavaPlugin
      * <p>
      * Uses {@link TextUtils#toColor(String)} to apply color codes.
      *
-     * @param message The message to send (supports '&' color codes).
+     * @param message The message to send (supports '&amp;' color codes).
      */
     public void sendConsole(String message)
     {
@@ -68,7 +68,7 @@ public abstract class BngrPlugin extends JavaPlugin
      * If the player is null or offline, no message is sent.
      * Uses {@link TextUtils#toColor(String)} to apply color codes.
      *
-     * @param message The message to send (supports '&' color codes).
+     * @param message The message to send (supports '&amp;' color codes).
      * @param player  The target player to receive the message.
      */
     public void sendPlayer(String message, Player player)
